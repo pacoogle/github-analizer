@@ -57,7 +57,7 @@ python pr_analytics.py --org ORGANIZZAZIONE --author AUTORE --from-date YYYY-MM-
 ### Parametri Obbligatori
 
 - `--org`: Nome dell'organizzazione GitHub (es. `Gamindo`)
-- `--author`: Username GitHub dell'autore delle PR (es. `evercloud`)
+- `--author`: Username GitHub dell'autore delle PR (es. `pacoogle`)
 - `--from-date`: Data di inizio del periodo da analizzare (formato: `YYYY-MM-DD`)
 - `--to-date`: Data di fine del periodo da analizzare (formato: `YYYY-MM-DD`)
 
@@ -73,32 +73,32 @@ python pr_analytics.py --org ORGANIZZAZIONE --author AUTORE --from-date YYYY-MM-
 
 **Esempio base con output tabella:**
 ```bash
-python pr_analytics.py --org Gamindo --author evercloud --from-date 2024-01-01 --to-date 2024-12-31
+python pr_analytics.py --org Gamindo --author pacoogle --from-date 2024-01-01 --to-date 2024-12-31
 ```
 
 **Esempio con output JSON:**
 ```bash
-python pr_analytics.py --org Gamindo --author evercloud --from-date 2024-01-01 --to-date 2024-12-31 --output json
+python pr_analytics.py --org Gamindo --author pacoogle --from-date 2024-01-01 --to-date 2024-12-31 --output json
 ```
 
 **Esempio con esportazione CSV:**
 ```bash
-python pr_analytics.py --org Gamindo --author evercloud --from-date 2024-01-01 --to-date 2024-12-31 --output csv --export risultati.csv
+python pr_analytics.py --org Gamindo --author pacoogle --from-date 2024-01-01 --to-date 2024-12-31 --output csv --export risultati.csv
 ```
 
 **Esempio con modalità verbose:**
 ```bash
-python pr_analytics.py --org Gamindo --author evercloud --from-date 2024-01-01 --to-date 2024-12-31 --verbose
+python pr_analytics.py --org Gamindo --author pacoogle --from-date 2024-01-01 --to-date 2024-12-31 --verbose
 ```
 
 **Esempio senza dettagli (solo statistiche):**
 ```bash
-python pr_analytics.py --org Gamindo --author evercloud --from-date 2024-01-01 --to-date 2024-12-31 --no-details
+python pr_analytics.py --org Gamindo --author pacoogle --from-date 2024-01-01 --to-date 2024-12-31 --no-details
 ```
 
 **Esempio con token passato come parametro:**
 ```bash
-python pr_analytics.py --org Gamindo --author evercloud --from-date 2024-01-01 --to-date 2024-12-31 --token ghp_tuo_token_qui
+python pr_analytics.py --org Gamindo --author pacoogle --from-date 2024-01-01 --to-date 2024-12-31 --token ghp_tuo_token_qui
 ```
 
 ## Output
